@@ -6,6 +6,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import CloseIcon from '@mui/icons-material/Close';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import Badge from '@mui/material/Badge';
 import couvertureDefaut from '../images/couverture-defaut.webp';
 import { formaterDate } from '../code/helper';
 import { useState, useContext } from 'react';
@@ -125,7 +126,10 @@ export default function Dossier({ id, titre, couleur, dateModif, couverture, top
     const derniers3 = [...signets, { adresse: url, titre: titreUrl }].slice(-3);
     console.log("Derniers 3 : ", derniers3);
     signetModele.creer(uid, idDossier, derniers3).then(
-      () => setSignets(derniers3)
+      () => {
+        setSignets(derniers3);
+        setCarteActive(true);
+      }
     )
   }
 
@@ -141,7 +145,10 @@ export default function Dossier({ id, titre, couleur, dateModif, couverture, top
           </div>
           <div className="info">
             <h2>{titre}</h2>
-            <p>Modifié : {formaterDate(dateModif.seconds)}</p>
+            <p> <Badge badgeContent={signets.length} color="primary">
+              Modifié : {formaterDate(dateModif.seconds)}
+            </Badge>
+            </p>
           </div>
           <IconButton onClick={gererMenu} className="modifier" aria-label="modifier" size="small">
             <MoreVertIcon />

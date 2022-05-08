@@ -49,7 +49,7 @@ export default function ListeDossiers({dossiers, setDossiers}) {
   return (
     <ul className="ListeDossiers">
       {
-        (dossiers.length > 0) ?
+        (dossiers.length != 0) ?
         dossiers.map( 
           // Remarquez l'utilisation du "spread operator" pour "étaler" les 
           // propriétés de l'objet 'dossier' reçu en paramètre de la fonction
