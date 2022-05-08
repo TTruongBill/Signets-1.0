@@ -133,7 +133,7 @@ export default function Dossier({ id, titre, couleur, dateModif, couverture, top
     <article className={"Dossier" + (dropzone ? ' dropzone' : '') + (carteActive ? ' actif' : '')} onDrop={gererDrop} onDragEnter={gererDragEnter} onDragOver={gererDragOver} onDragLeave={gererDragLeave} style={{ backgroundColor: couleur }}>
       <div className="carte">
         <div className="endroit" onClick={() => setCarteActive(true)}>
-          <IconButton className="deplacer" aria-label="déplacer" disableRipple={true}>
+          <IconButton onClick={evt => evt.stopPropagation()} className="deplacer" aria-label="déplacer" disableRipple={true}>
             <SortIcon />
           </IconButton>
           <div className="couverture">
