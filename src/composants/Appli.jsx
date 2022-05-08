@@ -35,7 +35,8 @@ export default function Appli() {
     dossierModele.creer(utilisateur.uid, {
       titre: titre,
       couverture: couverture,
-      couleur: couleur
+      couleur: couleur,
+      nombreSignets: 0
     }).then(
       // On augmente les dossiers avec le nouveau document que nous 
       // venons d'ajouter dans Firestore
