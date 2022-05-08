@@ -169,9 +169,14 @@ export default function Dossier({ id, titre, couleur, dateModif, couverture, top
             <CloseIcon />
           </ButtonUnstyled>
             {
+              (signets.length > 0) ?
               signets.map(
                 (signet, position) => <a key={position} href={signet.adresse} target="_blank">{signet.titre}</a>
               )
+              :
+              <div className="signetVide">
+                Ce dossier de signets est vide.
+              </div>
             }
         </div>
       </div>

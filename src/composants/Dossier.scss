@@ -93,6 +93,10 @@
       flex-direction: column;
       justify-content: space-around;
 
+      .signetVide{
+        padding: 2rem;
+        text-align: center;
+      }
       .tourner-carte {
         position: absolute;
         top: 0;
