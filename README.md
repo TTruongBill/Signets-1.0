@@ -23,5 +23,9 @@ Le Gestionnaire de Signets est une application web conçue pour permettre aux ut
 ## Déploiement
 L'application est déployée en utilisant l'hébergement Firebase. Accédez à la version en direct [ici](https://react-schooltien.web.app/).
 
+## Historique de Repo
+- [Version 0.1](https://github.com/TTruongBill/signets-0.1)
+- [Version 0.2](https://github.com/TTruongBill/signets-0.2)
+
 ## Licence
 Ce projet est sous licence MIT License.
