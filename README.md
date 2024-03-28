@@ -1,4 +1,4 @@
-# Gestionnaire de tâches
+# Gestionnaire de signets
 
 ## Description
 Le Gestionnaire de Signets est une application web conçue pour permettre aux utilisateurs de sauvegarder des liens vers leurs sites web favoris dans des signets. Les utilisateurs peuvent créer des dossiers avec un nom, une URL d'image et une couleur personnalisée. Chaque dossier peut contenir jusqu'à 3 sites web. De plus, les utilisateurs peuvent supprimer des dossiers, ainsi que modifier le nom, l'URL d'une image et la couleur personnalisée de chaque dossier. Le système de connexion avec Google permet aux utilisateurs de sauvegarder leurs signets et d'y accéder depuis n'importe quel appareil.
