@@ -1,13 +1,17 @@
 # Gestionnaire de tâches
 
 ## Description
-Le Gestionnaire de tâches est une application web conçue pour aider les utilisateurs à créer et à gérer leurs listes de tâches de manière efficace. Les utilisateurs peuvent ajouter, supprimer, modifier et marquer les tâches comme terminées. De plus, l'application permet aux utilisateurs de filtrer les tâches en fonction de leur statut (terminé ou en attente), de l'ordre alphabétique ou de la date de création. L'intégration avec l'authentification Google permet aux utilisateurs de sauvegarder leurs tâches de manière sécurisée et d'y accéder depuis n'importe quel appareil.
+Le Gestionnaire de Signets est une application web conçue pour permettre aux utilisateurs de sauvegarder des liens vers leurs sites web favoris dans des signets. Les utilisateurs peuvent créer des dossiers avec un nom, une URL d'image et une couleur personnalisée. Chaque dossier peut contenir jusqu'à 3 sites web. De plus, les utilisateurs peuvent supprimer des dossiers, ainsi que modifier le nom, l'URL d'une image et la couleur personnalisée de chaque dossier. Le système de connexion avec Google permet aux utilisateurs de sauvegarder leurs signets et d'y accéder depuis n'importe quel appareil.
 
 ## Fonctionnalités
-- Créer, supprimer, modifier et marquer les tâches comme terminées.
-- Filtrer les tâches par statut, ordre alphabétique ou date de création.
-- Authentification Google pour une gestion sécurisée des tâches sur différents appareils.
-- Design responsive pour une utilisation fluide sur différents appareils.
+- Création de dossiers avec un nom, une URL d'image et une couleur personnalisée.
+- Ajout jusqu'à 3 sites web par dossier.
+- Suppression de dossiers et modification de leurs paramètres.
+- Authentification Google pour une sauvegarde sécurisée des signets.
+
+## Utilisations
+1. Créez un dossier en spécifiant un lien URL personnalisé pour l'image (par exemple, l'URL d'une image provenant de Google).
+2. Faites glisser et déposez les liens que vous souhaitez sauvegarder dans le dossier correspondant.
 
 ## Technologies Utilisées
 - HTML
@@ -17,7 +21,7 @@ Le Gestionnaire de tâches est une application web conçue pour aider les utilis
 - Firebase
 
 ## Déploiement
-L'application est déployée en utilisant l'hébergement Firebase. Accédez à la version en direct [ici](https://react-755b3.web.app/).
+L'application est déployée en utilisant l'hébergement Firebase. Accédez à la version en direct [ici](https://react-schooltien.web.app/).
 
 ## Licence
 Ce projet est sous licence MIT License.
