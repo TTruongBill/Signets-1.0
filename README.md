@@ -17,7 +17,7 @@ Le Gestionnaire de tâches est une application web conçue pour aider les utilis
 - Firebase
 
 ## Déploiement
-L'application est déployée en utilisant l'hébergement Firebase. Accédez à la version en direct ici.
+L'application est déployée en utilisant l'hébergement Firebase. Accédez à la version en direct [ici](https://react-755b3.web.app/).
 
 ## Licence
 Ce projet est sous licence MIT License.
